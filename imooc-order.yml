@@ -1,7 +1,10 @@
 spring:
   application:
     name: imooc-order
-
+    
+  rabbitmq:
+    host: 106.14.112.53
+    
   datasource:
     #jdbc_config datasource
     driver-class-name: com.mysql.jdbc.Driver
