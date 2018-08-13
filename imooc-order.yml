@@ -4,6 +4,9 @@ spring:
     
   rabbitmq:
     host: 106.14.112.53
+    port: 5672
+    username: guest
+    password: guest
     
   datasource:
     #jdbc_config datasource
