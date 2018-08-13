@@ -37,5 +37,4 @@ mybatis:
 logging:
   level:
     cn.lifuz: debug
-env:
-  dev
+env: dev
