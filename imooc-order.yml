@@ -8,6 +8,11 @@ spring:
     username: guest
     password: guest
     
+  redis:
+    host: 106.14.112.53
+    port: 6379
+    database: 1
+    
   datasource:
     #jdbc_config datasource
     driver-class-name: com.mysql.jdbc.Driver
