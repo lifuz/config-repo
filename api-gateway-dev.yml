@@ -4,5 +4,5 @@ zuul:
     myProduct:
       path: /myProduct/**
       serviceId: imooc-product
-  ignored-patterns:
+  #ignored-patterns:
     #- /**/server/msg
