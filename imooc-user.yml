@@ -36,7 +36,7 @@ spring:
   jpa:
     show-sql: true
 server:
-  port: 8875
+  port: 8880
 eureka:
   client:
     service-url:
