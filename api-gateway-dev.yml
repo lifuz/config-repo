@@ -1,5 +1,8 @@
 
 zuul:
+  host:
+    connect-timeout-millis: 10000
+    socket-timeout-millis: 60000
   sensitive-headers: 
   routes:
     myProduct:
@@ -7,3 +10,15 @@ zuul:
       serviceId: imooc-product
   #ignored-patterns:
     #- /**/server/msg
+   
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000
+
